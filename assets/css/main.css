@@ -12479,7 +12479,10 @@ Location:
   padding: 24px 32px;
   position: absolute;
   top: 0;
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
   left: 0;
 }
 .homepage1-body .header-section-area .sidebar-main .sidebar-area .list-group img {
@@ -12878,7 +12881,9 @@ Location:
   padding: 24px 32px;
   position: absolute;
   top: 0;
-  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
   left: 0;
 }
 .homepage2-body .header-section-area .sidebar-area .list-group img {
@@ -13430,12 +13435,14 @@ Location:
   }
 }
 .homepage1-body.rtl1-body .header-section-area .sidebar-main .sidebar-area .logo {
-  background: var(--ztc-bg-bg-2);
-  padding: 24px 32px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0;
+  background: var(--ztc-text-text-1);
+    padding: 24px 32px;
+    position: absolute;
+    top: 0;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    left: 0;
 }
 .homepage1-body.rtl1-body .header-section-area .sidebar-main .sidebar-area .list-group img {
   filter: brightness(0) invert(1);
@@ -13836,7 +13843,9 @@ Location:
   padding: 24px 32px;
   position: absolute;
   top: 0;
-  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
   left: 0;
 }
 .homepage2-body.rtl2-body .header-section-area .sidebar-area .list-group img {
